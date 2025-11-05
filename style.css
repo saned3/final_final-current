@@ -4,6 +4,8 @@
 	box-sizing: border-box;
   	font-family: "Cairo", sans-serif ;
 	direction: rtl;
+	font-style: normal !important;
+
 }
 html{
 	scroll-behavior: smooth;
@@ -970,3 +972,4 @@ section.footer{
     height: 20px;
   }
 }
+
