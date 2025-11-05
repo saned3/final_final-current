@@ -93,7 +93,7 @@ section.home{
 	justify-content: space-between;
 	align-items: center;
 	z-index: 100;
-	border-radius: 0px 0px 25px 25px;
+	/* border-radius: 0px 0px 25px 25px; */
 	direction: ltr !important;
 }
 .home.active .main-navbar{
@@ -830,6 +830,40 @@ section.footer{
       height: 50px;
       font-size: 26px;
       bottom: 15px;
+      left: 15px;
+    }
+  }
+  
+.call-float {
+    position: fixed;
+    bottom: 180px;
+    left: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 126, 126);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .call-float:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    .call-float {
+      width: 50px;
+      height: 50px;
+      font-size: 26px;
+      bottom: 140px;
       left: 15px;
     }
   }
